@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Desktops (300px and above) */
+@media screen and (min-width: 300px) and (max-width: 599px) {
+    .navbar {
+        background-color: #f9665c;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 140px;
+        font-weight: bold;
+    }
+
+    .navbar a {
+        color: black;
+        padding: 16px 20px 10px 20px;
+        text-decoration: none;
+        font-family: Georgia;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+
+    .navbar img {
+        height: 40px;
+        width: 40px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .container {
+        display: flex;
+        overflow: auto;
+        flex-wrap: wrap;
+        height: 85vh;
+    }
+
+    .content {
+        width: auto;
+        background: linear-gradient(to right, #f8ef9d, #fad2e2);
+        padding: 5%;
+        font-family: Arial;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .section-image {
+        width: auto;
+    }
+
+    .section-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .button {
+        background-color: #f77269;
+        color: white;
+        padding: 15px 84px;
+        text-align: center;
+        text-decoration: none;
+        display:block;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 10% 0 0 0;
+    }
+}
+
+/* Desktops (600px and above) */
+@media screen and (min-width: 601px) and (max-width: 899px) {
+    .navbar {
+        background-color: #f9665c;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        color: black;
+        padding: 16px 20px 10px 20px;
+        text-decoration: none;
+        font-family: Georgia;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+
+    .navbar img {
+        height: 40px;
+        width: 40px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .container {
+        display: flex;
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: auto;
+        background: linear-gradient(to right, #f8ef9d, #fad2e2);
+        padding: 5%;
+        font-family: Arial;
+    }
+
+    .content h1 {
+        font-size: 35px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .section-image {
+        width: auto;
+    }
+
+    .section-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .button {
+        background-color: #f77269;
+        color: white;
+        padding: 15px 84px;
+        text-align: center;
+        text-decoration: none;
+        display:block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+/* Desktops (900px and above) */
+@media screen and (min-width: 900px) {
+    .navbar {
+        background-color: #f9665c;
+        display: flex;
+        justify-content: space-around;
+        height: 65px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        color: black;
+        padding: 18px 2px 0px 2px;
+        text-decoration: none;
+        font-family: Georgia;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+
+    .navbar img {
+        height: 40px;
+        width: 40px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .content {
+        width: 45%;
+        background: linear-gradient(to right, #f8ef9d, #fad2e2);
+        padding: 5%;
+        font-family: Arial;
+    }
+
+    .content h1 {
+        font-size: 45px;
+        letter-spacing: 4px;
+        margin: 35% 0 0 0;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 20% 0 0 0;
+    }
+
+    .section-image {
+        width: 55%;
+    }
+
+    .section-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 40% 100%;
+    }
+
+    .button {
+        background-color: #f77269;
+        color: white;
+        padding: 15px 84px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 16% 0 0 0;
+        cursor: pointer;
+    }
+}
+
+/* Desktops (1200px and above) */
+@media screen and (min-width: 1200px) {
+    .navbar {
+        background-color: #f9665c;
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        color: black;
+        padding: 16px 1px 0px 0px;
+        text-decoration: none;
+        font-family: Georgia;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .navbar img {
+        height: 40px;
+        width: 40px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .content {
+        width: 45%;
+        background: linear-gradient(to right, #f8ef9d, #fad2e2);
+        padding: 5%;
+        font-family: Arial;
+    }
+
+    .content h1 {
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin: 18% 0 0 0;
+    }
+
+    .content p {
+        font-size: 19px;
+        line-height: 1.5;
+        margin: 16% 0 0 0;
+    }
+
+    .section-image {
+        width: 55%;
+    }
+
+    .section-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 45% 100%;
+    }
+
+    .button {
+        background-color: #f77269;
+        color: white;
+        padding: 15px 84px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 12% 0 0 0;
+        cursor: pointer;
+    }
+}
+
+/* Desktops (1530px and above) */
+@media screen and (min-width: 1536px) {
+    .navbar {
+        background-color: #f9665c;
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        color: black;
+        padding: 16px 1px 0px 0px;
+        text-decoration: none;
+        font-family: Georgia;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .navbar img {
+        height: 40px;
+        width: 40px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .content {
+        width: 45%;
+        background: linear-gradient(to right, #f8ef9d, #fad2e2);
+        padding: 5%;
+        font-family: Arial;
+    }
+
+    .content h1 {
+        font-size: 60px;
+        letter-spacing: 5px;
+        margin: 12% 0 0 0;
+    }
+
+    .content p {
+        font-size: 22px;
+        line-height: 1.5;
+        margin: 12% 0 0 0;
+    }
+
+    .section-image {
+        width: 55%;
+    }
+
+    .section-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 60% 100%;
+    }
+
+    .button {
+        background-color: #f77269;
+        color: white;
+        padding: 15px 84px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 12% 0 0 0;
+        cursor: pointer;
+}
+}
