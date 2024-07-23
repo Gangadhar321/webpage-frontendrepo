@@ -32,18 +32,19 @@ body {
         padding: 10px 0px 0px 0px;
     }
 
-    .container {
+     .container {
         display: flex;
         overflow: auto;
         flex-wrap: wrap;
         height: 85vh;
-    }
+    } 
 
     .content {
         width: auto;
         background: linear-gradient(to right, #f8ef9d, #fad2e2);
         padding: 5%;
         font-family: Arial;
+        height: 80%;
     }
 
     .content h1 {
