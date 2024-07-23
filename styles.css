@@ -54,11 +54,11 @@ body {
     }
 
     .content p {
-        font-size: 16px;
-        line-height: 1.5;
-        text-align: center;
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: left;
+        padding: 10px;
     }
-
     .section-image {
         width: auto;
     }
@@ -131,9 +131,10 @@ body {
     }
 
     .content p {
-        font-size: 18px;
-        line-height: 1.5;
-        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: left;
+        padding: 15px;
     }
 
     .section-image {
